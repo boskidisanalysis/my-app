@@ -5,9 +5,19 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgb(245, 54, 131), rgb(182, 130, 92));
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1{
+  @font-face {
+    font-family: 'Patchy Robots Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Patchy Robots Regular'), url('Patchy Robots.woff') format('woff');
+    }
 }
